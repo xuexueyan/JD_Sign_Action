@@ -11,7 +11,7 @@ on:
     - cron: 0 14 * * *
   watch:
     types: started
- 
+  
 env:
   JD_COOKIE: ${{ secrets.JD_COOKIE }}
   PUSH_KEY: ${{ secrets.PUSH_KEY }}
